@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+<body>
+    <script>
+        const stuData = {
+            "Books":
+            [
+                {
+                    "title":"The Great Gasby",
+                    "author":"F. Scott Fitzgerald",
+                    "pubyear":1925,
+                    "genres":["Fiction","Classics"]
+                },
+                {    
+                
+                    "title":"To Kill A Mocking Bird",
+                    "author":"Harper Lee",
+                    "pubyear":1960,
+                    "genres":["Fiction","Coming-of-Age"]
+
+                }
+            ]
+        };
+
+        console.log(stuData.Books[0].title);
+        console.log(stuData.Books[1].author);
+        
+        stuData.Books.forEach(book => {
+           console.log(book.genres); 
+        });
+</script>
+</body>
+</html>

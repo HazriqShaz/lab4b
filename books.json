@@ -1,0 +1,19 @@
+{
+    "Books":
+    [
+        {
+            "title":"The Great Gasby",
+            "author":"F. Scott Fitzgerald",
+            "pubyear":1925,
+            "genres":["Fiction","Classics"]
+        },
+        {    
+        
+            "title":"To Kill A Mocking Bird",
+            "author":"Harper Lee",
+            "pubyear":1960,
+            "genre":["Fiction","Coming-of-Age"]
+
+        }
+    ]
+}
